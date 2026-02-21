@@ -1,3 +1,30 @@
+/**
+ * Funções
+ * - Parâmetros e argumentos ->
+ *      - Ao criar uma função, definimos os PARÂMETROS
+ *      - Ao executar uma função, passamos os ARGUMENTOS
+ * - função callback ->
+ *      - é uma função que entregamos para outra função executar no momento que ela quiser
+ * - Quando não definimos o return em uma função, ela irá nos retornar undefined
+ * - Variáveis e funções definidas dentro de um bloco {}, não são visíveis fora dele (escopo)
+ * - Funções sempre conseguem acessar variáveis que foram criadas no contexto PAI
+ * - Hoisting -> 
+ *      - Ao ler o seu arquivo, o JS vai "jogando" as variáveis e funções para o topo, e após isso passa a executar o que precisar
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Exercícios de funções
 const randomColor = (cor) => {
     if (cor === 'verde') {
         return 'Eu sou muito palmeirense'
@@ -96,3 +123,5 @@ function jaVisitei(paisesVisitados) {
 }
 precisoVisitar(20);
 jaVisitei(20);
+
+/**-------------------------------------------------------------------------- */

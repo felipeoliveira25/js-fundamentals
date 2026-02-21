@@ -1,3 +1,30 @@
+
+/**
+ * Objetos
+ * - Conjunto de variáveis e funções, que são chamadas de propriedades e métodos
+ * - Usam chave e valor
+ * - Métodos -> propriedade do objeto que possui uma função no local do seu valor
+ * - Objetos servem para organizar o código em pequenas partes reutilizáveis e que possuem certa "conexão" entre si
+ * - o "this" representa o contexto de execução atual, ou seja, o objeto ao qual aquela função está vinculada naquele momento.
+ *      Ele permite que você acesse propriedades e métodos do próprio objeto dinamicamente, sem precisar saber o nome da variável
+ *      que está segurando esse objeto.
+ *      Resumindo: o this faz referência ao próprio objeto, retorna o próprio objeto.
+ * - Object.hasOwnProperty('propriedade') -> verifica se tenho a propriedade passada como argumento, no meu objeto. Retorna um booleano.
+ * - "Tudo é objeto" -> Strings, numbers, booleanos, objetos e mais, possuem propriedades e métodos. Por isso acabam sendo objetos também.
+ *      No caso de uma string, por exemplo, ela herda todas as propriedades e métodos do construtor String()
+ */
+
+
+
+
+
+
+
+
+
+
+
+//Exercícios - Objetos
 // Crie um objeto com os seus dados pessoais
 // Deve possui pelo menos duas propriedades nome e sobrenome
 
@@ -46,3 +73,5 @@ const cachorro = {
 }
 
 cachorro.latir(true)
+
+/**-------------------------------------------------------------------------------------------------------------------- */
