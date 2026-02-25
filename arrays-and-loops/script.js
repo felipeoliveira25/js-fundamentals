@@ -38,3 +38,40 @@ const mapTest = myArrayWithNumbers.map((number) => {
     return finalNumber
 })
 console.log("🚀 ~ mapTest:", mapTest) //[12,21,27,39, 114]
+
+
+//Exercício
+// Crie uma array com os anos que o Brasil ganhou a copa
+// 1959, 1962, 1970, 1994, 2002
+const brazilWorldCups = [1959, 1962, 1970, 1994, 2002]
+
+// Interaja com a array utilizando um loop, para mostrar
+// no console a seguinte mensagem, `O brasil ganhou a copa de ${ano}`
+
+brazilWorldCups.forEach((cup) => {
+    console.log(`O Brasil ganhou a copa de ${cup}`);
+    
+})
+
+// Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
+var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
+
+for(i = 0; i <= frutas.length; i++) {
+    if(frutas[i] === 'Pera') break
+
+    console.log(frutas[i]);
+    
+}
+
+frutas.forEach((fruta) => {
+    if(fruta === 'Uva') return
+
+    console.log(fruta);
+    
+})
+// Coloque a última fruta da array acima em uma variável,
+// sem remover a mesma da array.
+
+const lastFruit = frutas[frutas.length - 1]
+console.log("🚀 ~ lastFruit:", lastFruit)
+
